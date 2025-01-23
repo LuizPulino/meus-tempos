@@ -1,3 +1,27 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+body.dark{
+    background-color: #000;
+    color: #fff;
+}
+#container, #breath, #center{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+#container{
+    margin:0 auto;
+    width:80vw;
+    background: #0064b6;
+}
+#breath{
+    width:60vw;
+    background: red;
+}
+#center{
+    width:40vw;
+    background: #0064b6;
+}
